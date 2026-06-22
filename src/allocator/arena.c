@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/mman.h>
+#include <stdbool.h>
 
 #define DEFAULT_ARENA_ALIGNMENT 8
 

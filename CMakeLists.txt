@@ -13,6 +13,7 @@ endif()
 add_library(cstl_core
     lib/logger.c
     src/allocator/arena.c
+    src/iterators/randomAcessIter.c
     src/containers/vector.c
 )
 
@@ -20,7 +21,8 @@ target_include_directories(cstl_core
     PUBLIC
         ${PROJECT_SOURCE_DIR}
         ${PROJECT_SOURCE_DIR}/src/allocator
-        ${PROJECT_SOURCE_DIR}/src/lib
+        ${PROJECT_SOURCE_DIR}/src/containers
+        ${PROJECT_SOURCE_DIR}/src/iterators
 )
 
 add_executable(cstl_test

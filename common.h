@@ -1,8 +1,10 @@
+#pragma once
 #include <stdint.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <sys/mman.h>
 #include <unistd.h>
+#include <stdio.h>
 
 #define u8 uint8_t
 #define u16 uint16_t
