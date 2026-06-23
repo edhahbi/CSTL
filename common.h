@@ -18,4 +18,5 @@
 
 #define MIN(x, y) (x) > (y) ? (y) : (x)
 #define MAX(x, y) (x) == MIN((x), (y)) ? (y) : (x)
+#define ABS(x) (x) < 0 ? (x) : -(x)
 #define ALIGN_UP(x, a) (((x) + (a) - 1) & ~((a) - 1))
